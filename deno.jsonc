@@ -1,0 +1,12 @@
+{
+  "fmt": {
+    "lineWidth": 120
+  },
+  "imports": {
+    "grammy": "https://deno.land/x/grammy@v1.21.2/mod.ts",
+    "std/": "https://deno.land/std@0.224.0/"
+  },
+  "tasks": {
+    "dev": "deno run -A --watch polling.ts"
+  }
+}
